@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated crypto material — never commit private keys or certificates
+crypto-config/
+*.key
+*.pem
+*.cert
+chain.cert
+
+# Generated channel artifacts (binary)
+channel-artifacts/*.block
+channel-artifacts/*.tx
+channel-artifacts/*.tar.gz
+channel-artifacts/Chaincode
+
+# Corrupt CLI flag files (git artifact from bad copy-paste)
+channel-artifacts/--*
+channel-artifacts/-o
+channel-artifacts/-*
+
+# Blockchain ledger data
+chaindata/
+
+# Fabric CA server state
+**/Fabric-CA*/*.db
+**/Fabric-CA*/fabric-ca-server.db
+**/Fabric-CA*/.admin/
+**/DP-ICA/
+**/DP-RootCA/
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+vendor/
+
+# Environment / secrets
+.env
+*.env
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Zip archives
+*.zip

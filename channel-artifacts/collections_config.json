@@ -1,0 +1,100 @@
+[
+    
+    {
+        "name": "packages",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },   
+    {
+        "name": "SignaturePolicy",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },   
+    {
+        "name": "user",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },   
+    {
+        "name": "organization",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },   
+    {
+        "name": "documentType",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },   
+    {
+        "name": "packageType",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "package",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "document",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "documentHash",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "orgUsers",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "tasks",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    },
+    {
+        "name": "documentMapping",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true
+    }
+
+]
